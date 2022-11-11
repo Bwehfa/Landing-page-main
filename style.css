@@ -1,0 +1,156 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    width: 1300px;
+    margin: 0 auto;
+   
+}
+.collapse{
+    display: inline;
+}
+.nav-item a{
+    font-weight: 400;
+}
+.nav-item a:hover{
+    color: hsl(35, 77%, 62%) ;
+
+}
+.main-text{
+    font-weight: 800;
+}
+.card{
+    background: hsl(240, 100%, 5%);
+}
+.card-body h6,p{
+    color: #fff;
+}
+.card-body h1{
+    color: hsl(35, 77%, 62%);
+}
+.one{
+    border-bottom: 1px solid hsl(36, 100%, 99%);
+}
+.one h6:hover{
+    color: hsl(35, 77%, 62%);
+}
+.one-last h6:hover{
+    color: hsl(35, 77%, 62%);
+}
+.btn{
+    background: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%) ;
+}
+.btn:hover{
+    background:  hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+h5{
+    font-weight: 700;
+}
+.text p{
+    font-weight: 400;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/*Mobiles*/
+@media (max-width:500px) {
+    #main{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .left-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .writeup{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .main-image{
+        display: flex;
+        justify-content: center;
+    }
+   .main-image img{
+        min-width: 350px;
+   }
+   .main-text{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    padding-left: 45px;
+    font-size: 35px;
+   }
+   .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 50px;
+    margin-bottom: 20px;
+   }
+   .right-sec{
+    display: flex;
+    justify-content: center;
+   }
+   #footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   }
+}
+@mediaminmax(501px, 1000px){
+    #main{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .left-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .writeup{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .main-image{
+        display: flex;
+        justify-content: center;
+    }
+   .main-image img{
+        min-width: 400px;
+   }
+   .main-text{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    padding-left: 45px;
+    font-size: 35px;
+   }
+   .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 50px;
+    margin-bottom: 20px;
+   }
+   .right-sec{
+    display: flex;
+    justify-content: center;
+   }
+   #footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   }
+
+}
